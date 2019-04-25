@@ -1,3 +1,5 @@
 # Craig's Scripts
 
 - `16 `:  Print the first `16` terminal colors.
+- `mks`: Create a `bash` script using a template.
+- `tre`: A version of `tree` written in pure bash.
