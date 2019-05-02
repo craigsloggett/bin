@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #
-# bar - Dylan Araps
+# bar - Craig Sloggett
 
 enable -f /usr/lib/bash/sleep sleep
 
@@ -13,7 +13,7 @@ bat() {
     read -r sta < /sys/class/power_supply/BAT1/status
 
     case $cur in
-        [0-9]|1[0-9])         bat= ;;
+         [0-9]|1[0-9])        bat= ;;
         2[0-9]|3[0-9]|4[0-9]) bat= ;;
         5[0-9]|6[0-9])        bat= ;;
         7[0-9]|8[0-9])        bat= ;;

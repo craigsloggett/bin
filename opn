@@ -13,7 +13,7 @@ case "$mime_type" in
     ;;
 
     application/pdf*)
-        "${BROWSER:-chromium}" "$1"
+        "${BROWSER:-firefox}" "$1"
     ;;
 
     *opendocument*|*openxmlformats*)
