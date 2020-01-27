@@ -8,12 +8,12 @@ shopt -s globstar nullglob
 printf '%s\n' "${PWD##*/}/"
 
 for item in **; do
-    [[ -d $item ]] && dir=/ || dir=
+  [[ -d $item ]] && dir=/ || dir=
 
-    nest=${item//[^\/]}
-    item=${item//[^[:print:]]/^[}
+  nest=${item//[^\/]}
+  item=${item//[^[:print:]]/^[}
 
-    printf '%s\n' "${nest//\//│  }├─ ${item##*/}${dir}"
+  printf '%s\n' "${nest//\//│  }├─ ${item##*/}${dir}"
 done
 
 printf '└%s\b┘\n' "${nest//\//──┴}"

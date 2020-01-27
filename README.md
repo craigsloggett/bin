@@ -8,3 +8,5 @@
 - `tre`: A version of `tree` written in pure bash.
 - `gbr`: Create a git branch using a JIRA ticket number.
 - `gch`: Checkout a git branch using a JIRA ticket number.
+- `apl`: Create an `Ansible` Playbook using a template.
+- `arl`: Create an `Ansible` Role using a template.
