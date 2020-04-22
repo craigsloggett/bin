@@ -6,6 +6,6 @@
 - `mks`: Create a `bash` script using a template.
 - `opn`: Minimal `xdg-open` alternative.
 - `tre`: A version of `tree` written in pure bash.
-- `gbr`: Create a git branch using a JIRA ticket number.
-- `gch`: Checkout a git branch using a JIRA ticket number.
+- `gbr`: Create a git branch and update remote master.
+- `gts`: Quickly, push a test commit.
 - `abl`: Create an `Ansible` file using a template.

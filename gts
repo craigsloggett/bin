@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 #
-# Push a test commit.
+# Quickly, push a test commit.
 
 git add . && git commit -m 'testing' && git push

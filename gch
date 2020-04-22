@@ -1,9 +1,0 @@
-#!/usr/bin/env bash
-#
-# Checkout a git branch using a JIRA ticket number.
-
-[[ $1 ]] || exit 1
-
-branch="feature/DEVOPS-$1"
-
-git checkout $branch
